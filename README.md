@@ -1,2 +1,2 @@
-# Projeto_Calculadora_Simples_JavaScript
-Uma Calculadora Dinamica em JavaScript
+# Projeto_Calculadora_JavaScript
+Commit - Calculadora Dinamica em JavaScript
