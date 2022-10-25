@@ -1,0 +1,39 @@
+<html>
+    <body>
+        <script>
+            // Aplicação Calculadora Dinamica
+            // Queremos um numero Inicial
+            // Queremos um Sinal (Operação)
+            // Queremos um Numero Final
+
+            var numeroInicial = prompt ("Informe um numero inicial...");
+
+            var sinal = prompt ("Informe o sinal de operação...");
+
+            while(sinal != '-' && sinal != '+' && sinal != '/' && sinal != '*'){
+                alert ("Por favor Insira um sinal valido!");
+                sinal = prompt ("Informe o sinal da sua operação...");
+            }
+
+            var numeroFinal = prompt ("Informe um Numero Final...");
+
+            numeroInicial = parseInt(numeroInicial);
+            numeroFinal = parseInt(numeroFinal);
+
+            var resultadoFinal = 0;
+
+            if (sinal == '+'){
+                resultadoFinal = numeroInicial + numeroFinal;
+            }else if (sinal == '-'){
+                resultadoFinal = numeroInicial + numeroFinal;
+            }else if (sinal == '/'){
+                resultadoFinal = numeroInicial + numeroFinal;
+            }else if (sinal == '*'){
+                resultadoFinal = numeroInicial + numeroFinal;
+            }
+
+            alert ("O Resultado Final e:  "+resultadoFinal);
+
+        </script>
+    </body>
+</html>
